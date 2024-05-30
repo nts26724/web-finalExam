@@ -1,0 +1,17 @@
+table tbody tr:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+    right: 3%;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr {
+    position: relative;
+}
+
+th, td {
+    padding: 1.5rem !important;
+    vertical-align: middle;
+}

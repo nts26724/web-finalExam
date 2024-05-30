@@ -1,0 +1,26 @@
+.title {
+    color: #FF9C00;
+    font-family:  "Shadows Into Light Two", cursive;
+    padding-top: 50px;
+}
+
+#counter {
+    background: url(../img/counter_background.png);
+    height: 200px;
+}
+
+#content {
+    /* background: #21231a; */
+}
+
+.btns_category {
+    
+}
+
+/* .products {
+    padding: 100px 0;
+} */
+
+.row-product {
+    margin-bottom: 50px;
+}

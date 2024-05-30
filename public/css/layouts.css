@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.text-ccc {
+    color: #ccc;
+}
+
+#navbar {
+    background-color: #f5f7ea;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#navpage a {
+    color: #237d26;
+}
+
+#btn-search {
+    background:  #f5f7ea;
+}
+
+#div-header-center a {
+    color: black;
+}
+
+.active {
+    color: black;
+}
+
+.toogle-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    /* z-index: 99999999 !important; */
+}
+
+.login-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.page-box {
+    left: 50%;
+    background: #f5f7ea;
+    position: relative;
+    /* align-items: center; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    z-index: 999999 !important;
+}
+
+#toogle-page a {
+    text-decoration: none;
+}
+
+#btn-toogle, #btn-cart {
+    cursor: pointer;
+}
+
+
+#footer {
+    background: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer * {
+    color: #ccc;
+}
+
+#footer a {
+    text-decoration: none;
+}
